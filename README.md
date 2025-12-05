@@ -18,29 +18,29 @@ Endpoints
 
 --AuthController--
 POST /api/auth/register
-    Body:
-    {
-      "fullName": "Rama Flihan",
-      "email": "RamaFlihan@example.com",
-      "password": "Rama1234",
-      "confirmPassword": "Rama1234"
-    }
-    Response (200 OK):
-    {
-      "id": "user-guid",
-      "fullName": "Rama Flihan",
-      "email": "RamaFlihan@example.com",
-      "passwordHash": "hashed-password",
-      "roleId": "role-guid",
-      "role": {
-                "roleId": "role-guid"
-                "roleName": "roleName"
-      "createdAt": "2025-12-05T12:31:20.991983"
-    }
-    Response (400 BadRequest):
-    {
-       Text error
-    }
+Body:
+{
+"fullName": "Rama Flihan",
+"email": "RamaFlihan@example.com",
+"password": "Rama1234",
+"confirmPassword": "Rama1234"
+ }
+ Response (200 OK):
+ {
+"id": "user-guid",
+"fullName": "Rama Flihan",
+"email": "RamaFlihan@example.com",
+"passwordHash": "hashed-password",
+"roleId": "role-guid",
+"role": {
+"roleId": "role-guid"
+"roleName": "roleName"
+"createdAt": "2025-12-05T12:31:20.991983"
+}
+Response (400 BadRequest):
+{
+Text error
+}
 
 
 POST /api/auth/login
