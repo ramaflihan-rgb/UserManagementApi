@@ -3,6 +3,13 @@
 A simple API for managing users with registration, login, role-based access, and user profile management.
 
 ---
+## Requirements
+
+- .NET 8 SDK
+- Any IDE that supports .NET (e.g., Visual Studio, Rider, VS Code)
+- MySQL (or the database you used)
+
+- 
 # UserManagementApi
 
 ## How to Run the Project
