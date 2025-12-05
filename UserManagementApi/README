@@ -9,7 +9,6 @@ A simple API for managing users with registration, login, role-based access, and
 
 1. Open your terminal or command prompt.
 2. Navigate to the project folder:
-   ```bash
    cd .\UserManagementApi\
  3. dotnet run 
 -----
